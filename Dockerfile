@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:20-alpine
 
 # pass N8N_VERSION Argument while building or use default
 ARG N8N_VERSION=latest
